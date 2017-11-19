@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5170E136F4D6ADF1002B3E5E /* Pods_htchkr_development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAA516842E981FAA1240132 /* Pods_htchkr_development.framework */; };
+		E07ADDAA1FC0B49C001E4843 /* LeftSideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07ADDA91FC0B49C001E4843 /* LeftSideVC.swift */; };
+		E07ADDAC1FC0B516001E4843 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07ADDAB1FC0B516001E4843 /* ContainerVC.swift */; };
+		E07ADDAF1FC0B865001E4843 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07ADDAE1FC0B865001E4843 /* CenterVCDelegate.swift */; };
+		E08A58061FC0429E00013423 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A58051FC0429E00013423 /* GradientView.swift */; };
+		E08A58081FC0489200013423 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A58071FC0489200013423 /* RoundImageView.swift */; };
+		E08A580A1FC04EB600013423 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A58091FC04EB600013423 /* RoundedShadowView.swift */; };
+		E08A580C1FC04FFA00013423 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A580B1FC04FFA00013423 /* CircleView.swift */; };
+		E08A580E1FC0519300013423 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A580D1FC0519300013423 /* RoundedShadowButton.swift */; };
 		E08F35671FC031CD00B24CCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F35661FC031CD00B24CCE /* AppDelegate.swift */; };
-		E08F35691FC031CD00B24CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F35681FC031CD00B24CCE /* ViewController.swift */; };
+		E08F35691FC031CD00B24CCE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F35681FC031CD00B24CCE /* HomeVC.swift */; };
 		E08F356C1FC031CD00B24CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08F356A1FC031CD00B24CCE /* Main.storyboard */; };
 		E08F356E1FC031CD00B24CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08F356D1FC031CD00B24CCE /* Assets.xcassets */; };
 		E08F35711FC031CD00B24CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08F356F1FC031CD00B24CCE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		634A56AB5D3EF218C3DF2A93 /* Pods-htchkr-development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htchkr-development.release.xcconfig"; path = "Pods/Target Support Files/Pods-htchkr-development/Pods-htchkr-development.release.xcconfig"; sourceTree = "<group>"; };
+		E07ADDA91FC0B49C001E4843 /* LeftSideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideVC.swift; sourceTree = "<group>"; };
+		E07ADDAB1FC0B516001E4843 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		E07ADDAE1FC0B865001E4843 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		E08A58051FC0429E00013423 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E08A58071FC0489200013423 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		E08A58091FC04EB600013423 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		E08A580B1FC04FFA00013423 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		E08A580D1FC0519300013423 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 		E08F35631FC031CD00B24CCE /* htchkr-development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htchkr-development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08F35661FC031CD00B24CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E08F35681FC031CD00B24CCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E08F35681FC031CD00B24CCE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		E08F356B1FC031CD00B24CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E08F356D1FC031CD00B24CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E08F35701FC031CD00B24CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E08F35721FC031CD00B24CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAA516842E981FAA1240132 /* Pods_htchkr_development.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_htchkr_development.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F456DB22E881C7FF54A49FEB /* Pods-htchkr-development.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htchkr-development.debug.xcconfig"; path = "Pods/Target Support Files/Pods-htchkr-development/Pods-htchkr-development.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5170E136F4D6ADF1002B3E5E /* Pods_htchkr_development.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AE0422A58E241ECD74DA384 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F456DB22E881C7FF54A49FEB /* Pods-htchkr-development.debug.xcconfig */,
+				634A56AB5D3EF218C3DF2A93 /* Pods-htchkr-development.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2B99BC964BEC312375A816A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECAA516842E981FAA1240132 /* Pods_htchkr_development.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E07ADDAD1FC0B852001E4843 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E07ADDAE1FC0B865001E4843 /* CenterVCDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E08A58021FC0424500013423 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E08F35681FC031CD00B24CCE /* HomeVC.swift */,
+				E07ADDA91FC0B49C001E4843 /* LeftSideVC.swift */,
+				E07ADDAB1FC0B516001E4843 /* ContainerVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E08A58031FC0426F00013423 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E08A58041FC0427400013423 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E08A58051FC0429E00013423 /* GradientView.swift */,
+				E08A58071FC0489200013423 /* RoundImageView.swift */,
+				E08A58091FC04EB600013423 /* RoundedShadowView.swift */,
+				E08A580B1FC04FFA00013423 /* CircleView.swift */,
+				E08A580D1FC0519300013423 /* RoundedShadowButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E08F355A1FC031CD00B24CCE = {
 			isa = PBXGroup;
 			children = (
 				E08F35651FC031CD00B24CCE /* htchkr-development */,
 				E08F35641FC031CD00B24CCE /* Products */,
+				0AE0422A58E241ECD74DA384 /* Pods */,
+				A2B99BC964BEC312375A816A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +131,11 @@
 		E08F35651FC031CD00B24CCE /* htchkr-development */ = {
 			isa = PBXGroup;
 			children = (
+				E07ADDAD1FC0B852001E4843 /* Protocols */,
+				E08A58031FC0426F00013423 /* Model */,
+				E08A58041FC0427400013423 /* View */,
+				E08A58021FC0424500013423 /* Controller */,
 				E08F35661FC031CD00B24CCE /* AppDelegate.swift */,
-				E08F35681FC031CD00B24CCE /* ViewController.swift */,
 				E08F356A1FC031CD00B24CCE /* Main.storyboard */,
 				E08F356D1FC031CD00B24CCE /* Assets.xcassets */,
 				E08F356F1FC031CD00B24CCE /* LaunchScreen.storyboard */,
@@ -71,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E08F35751FC031CD00B24CCE /* Build configuration list for PBXNativeTarget "htchkr-development" */;
 			buildPhases = (
+				5176F095CD7FFB2889E03711 /* [CP] Check Pods Manifest.lock */,
 				E08F355F1FC031CD00B24CCE /* Sources */,
 				E08F35601FC031CD00B24CCE /* Frameworks */,
 				E08F35611FC031CD00B24CCE /* Resources */,
+				3B14A49CC5365D3B9E030FB0 /* [CP] Embed Pods Frameworks */,
+				5A5DE53167653AD45B2ED772 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +214,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B14A49CC5365D3B9E030FB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-htchkr-development/Pods-htchkr-development-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htchkr-development/Pods-htchkr-development-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5176F095CD7FFB2889E03711 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-htchkr-development-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A5DE53167653AD45B2ED772 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htchkr-development/Pods-htchkr-development-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E08F355F1FC031CD00B24CCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08F35691FC031CD00B24CCE /* ViewController.swift in Sources */,
+				E07ADDAF1FC0B865001E4843 /* CenterVCDelegate.swift in Sources */,
+				E08A580E1FC0519300013423 /* RoundedShadowButton.swift in Sources */,
+				E08A580C1FC04FFA00013423 /* CircleView.swift in Sources */,
+				E08F35691FC031CD00B24CCE /* HomeVC.swift in Sources */,
+				E07ADDAC1FC0B516001E4843 /* ContainerVC.swift in Sources */,
+				E08A58081FC0489200013423 /* RoundImageView.swift in Sources */,
+				E07ADDAA1FC0B49C001E4843 /* LeftSideVC.swift in Sources */,
+				E08A580A1FC04EB600013423 /* RoundedShadowView.swift in Sources */,
 				E08F35671FC031CD00B24CCE /* AppDelegate.swift in Sources */,
+				E08A58061FC0429E00013423 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +425,7 @@
 		};
 		E08F35761FC031CD00B24CCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F456DB22E881C7FF54A49FEB /* Pods-htchkr-development.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +441,7 @@
 		};
 		E08F35771FC031CD00B24CCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634A56AB5D3EF218C3DF2A93 /* Pods-htchkr-development.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

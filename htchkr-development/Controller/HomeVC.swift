@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeVC.swift
 //  htchkr-development
 //
 //  Created by sieder on 11/18/17.
@@ -8,8 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeVC: UIViewController {
 
+    @IBOutlet weak var actionButton: RoundedShadowButton!
+    
+    var delegate: CenterVCDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func actionButtonWasPressed(_ sender: Any) {
+        actionButton.animateButton(shouldLoad: true, withMessage: nil)
+    }
+    
+    @IBAction func menuButtonWasTapped(_ sender: Any) {
+        delegate?.toggleLeftPanel()
+        
+    }
+    
 }
 
